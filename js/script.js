@@ -1,7 +1,4 @@
 
-
-// 6. per ogni quadrato aggiungere un evento al click
-// 7. al click del quadrato aggiungere/togliere(toggle) la classe del click
 // 8. imposto una funzione in modo che al click del bottone venga generata la griglia
 
 // 1. seleziono il container e lo salvo in una variabile
@@ -14,8 +11,14 @@ reset();
 for(let i = 1; i <= 100; i++){
   // 4.2. ad ogni ciclo devo far generare un quadrato
   const square = addSquare();
-  console.log(i)
-  
+
+// 6. per ogni quadrato aggiungere un evento al click
+// 7. al click del quadrato aggiungere/togliere(toggle) la classe del click
+  square.addEventListener('click', function(){
+    this.classList.toggle('clicked');
+    console.log(this)
+  })
+
   container.append(square)
 }
 
