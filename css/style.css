@@ -13,7 +13,7 @@
 }
 
 .container {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   width: 700px;
   height: 700px;
@@ -44,4 +44,8 @@ button {
 
 .square.clicked span {
   display: block;
+}
+
+.none  {
+  display: flex;
 }

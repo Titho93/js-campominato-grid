@@ -1,6 +1,3 @@
-
-// 8. imposto una funzione in modo che al click del bottone venga generata la griglia
-
 // 1. seleziono il container e lo salvo in una variabile
 const container   = document.querySelector('.container');
 // 2. Creo un bottone 
@@ -38,3 +35,8 @@ function addSquare(index){
 function reset(){
   container.innerHTML = '';
 }
+
+// 8. imposto una funzione in modo che al click del bottone venga generata la griglia
+startButton.addEventListener('click', function(){
+  container.classList.add('none');
+})
