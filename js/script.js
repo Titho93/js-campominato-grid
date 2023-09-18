@@ -5,3 +5,4 @@
 // 5. per ogni quadrato aggiungere un evento al click
 // 6. al click del quadrato aggiungere/togliere(toggle) la classe del click
 // 7. imposto una funzione in modo che al click del bottone venga generata la griglia
+
