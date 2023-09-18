@@ -26,3 +26,10 @@
   aspect-ratio: 1 / 1;
   border: 2px solid black;
 }
+
+button {
+  width: 80px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
