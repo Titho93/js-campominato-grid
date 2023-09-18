@@ -37,3 +37,11 @@ button {
 .square.clicked {
   background-color: lightcyan;
 }
+
+.square span {
+  display: none;
+}
+
+.square.clicked span {
+  display: block;
+}
